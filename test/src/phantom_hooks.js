@@ -8,8 +8,8 @@ module.exports = {
     });
 
     if (coverage) {
-      console.log('Writing coverage to coverage/coverage.json');
-      fs.write('coverage/coverage.json', JSON.stringify(coverage), 'w');
+      console.log('Writing coverage to test/coverage/coverage.json');
+      fs.write('test/coverage/coverage.json', JSON.stringify(coverage), 'w');
     } else {
       console.log('No coverage data generated');
     }

@@ -49,10 +49,10 @@ module.exports = function(grunt) {
       all: 'test/test.html'
     },
     makeReport: {
-      src: 'coverage/coverage.json',
+      src: 'test/coverage/coverage.json',
       options: {
         type: 'lcov',
-        dir: 'coverage',
+        dir: 'test/coverage',
         print: 'detail'
       }
     }
@@ -69,7 +69,8 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('build', ['browserify', 'uglify']);
   grunt.registerTask("build-test", ['browserify:test']);
-  grunt.registerTask("test", ["build-test", "mocha_phantomjs", "makeReport"])
+  grunt.registerTask("test", ["build-test", "mocha_phantomjs"]);
+  grunt.registerTask("coverage", ["test", "makeReport"]);
   grunt.registerTask('default', ['watch:source']);
 
 };

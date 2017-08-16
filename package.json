@@ -4,8 +4,7 @@
   "description": "A template to write robust client-side javascript libraries",
   "main": "src/main.js",
   "scripts": {
-    "test": "mocha-phantomjs ./test/test.html --hooks ./test/src/phantom_hooks.js -R xunit -f test/results/result.xml",
-    "coverage-report": "istanbul report --root coverage lcov"
+    "test": "mocha-phantomjs ./test/test.html --hooks ./test/src/phantom_hooks.js -R xunit -f test/results/result.xml"
   },
   "repository": {
     "type": "git",
