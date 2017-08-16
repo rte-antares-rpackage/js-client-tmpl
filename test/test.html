@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test MyLib</title>
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css">
+    <script src="../node_modules/mocha/mocha.js" charset="utf-8"></script>
+    <!-- Other external dependencies -->
+    <script src="lib/jquery-3.1.1.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <!-- Custom html elements required by the tests -->
+    <div id="message"></div>
+
+    <!-- Run tests. You should not modify the following lines. -->
+    <div id="mocha"></div>
+    <script type="text/javascript">
+      mocha.ui('bdd');
+    </script>
+    <script src="test.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      mocha.run();
+    </script>
+
+  </body>
+</html>

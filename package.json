@@ -1,0 +1,40 @@
+{
+  "name": "MyLib",
+  "version": "1.0.0",
+  "description": "A template to write robust client-side javascript libraries",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "mocha-phantomjs ./test/test.html --hooks ./test/src/phantom_hooks.js -R xunit -f test/results/result.xml",
+    "coverage-report": "istanbul report --root coverage lcov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rte-antares-rpackage/js-client-tmpl.git"
+  },
+  "keywords": [
+    "javascript",
+    "client",
+    "side",
+    "template",
+    "unit testing",
+    "code coverage"
+  ],
+  "author": "Francois Guillem",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify-istanbul": "^2.0.0",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-istanbul": "^0.8.0",
+    "grunt-mocha-phantomjs": "^4.0.0",
+    "istanbul": "^0.4.5",
+    "mocha-phantomjs": "^4.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/rte-antares-rpackage/js-client-tmpl/issues"
+  },
+  "homepage": "https://github.com/rte-antares-rpackage/js-client-tmpl#readme"
+}
