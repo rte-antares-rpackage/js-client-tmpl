@@ -9,6 +9,8 @@ This repository contains a template that can be used to create a new client-side
 
 Testing, using continuous integration and getting code coverage is somehow difficult in general but when you write a library that can only be tested in a browser, it is especially painful! It took us days to figure out how to do this correctly and we hope this repository will help some people save time and energy.
 
+Our framework is largely inspired from [this blog post](https://blog.engineyard.com/2015/measuring-clientside-javascript-test-coverage-with-istanbul).
+
 ## Create a new library
 We assume you have a working installation of `node` and `npm`.
 
