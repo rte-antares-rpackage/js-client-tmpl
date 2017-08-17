@@ -1,3 +1,8 @@
+[![Travis Build Status](https://travis-ci.org/rte-antares-rpackage/js-client-tmpl.svg?branch=master)](https://travis-ci.org/rte-antares-rpackage/js-client-tmpl)
+[![Appveyor Build Status](https://ci.appveyor.com/api/projects/status/u2eqak19662etpu6/branch/master?svg=true
+)](https://ci.appveyor.com/project/rte-antares-rpackage/js-client-tmpl)
+[![codecov](https://codecov.io/gh/rte-antares-rpackage/js-client-tmpl/branch/master/graph/badge.svg)](https://codecov.io/gh/rte-antares-rpackage/js-client-tmpl)
+
 # A template for robust client-side javascript libraries
 
 This repository contains a template that can be used to create a new client-side javascript library. It has everything that is required to run automatic tests, use popular continuous integration tools (travis-ci.org and appveyor.com) and compute code coverage.
@@ -78,3 +83,9 @@ This prints information about coverage in the terminal, but it also creates a HT
 
 ## Configure continuous integration
 The repository already contains configuration files for [Travis](https://travis-ci.org/), [Appveyor](https://www.appveyor.com/) and [codecov](https://codecov.io/gh). Create an account in each site and enable the three services for your github repository. After that, each time you will push your code on Github, Travis and Appveyor will retrieve the last version and run your tests. Travis will then upload a coverage report on Codecov.
+
+## Examples
+The repository already contains some sample scripts in `src` and `test/src`. For a concrete example, you can have a look at the repository of the [minicharts library](https://github.com/rte-antares-rpackage/minicharts).
+
+## Contributing
+If you have ideas to improve this framework, do not hesitate to contribute by creating issues or submitting pull requests to this repository.
