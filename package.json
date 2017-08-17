@@ -30,6 +30,7 @@
     "grunt-istanbul": "^0.8.0",
     "grunt-mocha-phantomjs": "^4.0.0",
     "istanbul": "^0.4.5",
+    "mocha": "^3.5.0",
     "mocha-phantomjs": "^4.1.0"
   },
   "bugs": {
