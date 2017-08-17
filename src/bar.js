@@ -1,9 +1,5 @@
-(function() {
-  'use strict';
+module.exports = bar;
 
-  module.exports = bar;
-
-  function bar() {
-    return "world!";
-  }
-}());
+function bar() {
+  return "world!";
+}

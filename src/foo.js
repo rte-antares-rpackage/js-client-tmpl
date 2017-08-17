@@ -1,10 +1,5 @@
-(function() {
-  'use strict';
+module.exports = foo;
 
-  module.exports = foo;
-
-  function foo() {
-    return "Hello";
-  }
-
-}());
+function foo() {
+  return "Hello";
+}
