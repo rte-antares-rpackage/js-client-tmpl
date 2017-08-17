@@ -26,7 +26,7 @@ Take a look at the `package.json` file and edit it to your liking. Once you are 
 npm install
 ```
 
-The repository contains sample scripts for demonstration. You should take a llok at them and then remove them:
+The repository contains sample scripts for demonstration. You should take a look at them and then remove them:
 ```sh
 rm dist/* src/* test/src/test-* test/test.js
 ```
